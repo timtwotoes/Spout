@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E9AE5AAA252CDF3600ABD86D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5AA9252CDF3600ABD86D /* main.swift */; };
+		E9AE5AB2252CED5100ABD86D /* CommandLineExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AE5AB1252CED5100ABD86D /* CommandLineExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		E9AE5AA6252CDF3600ABD86D /* spout */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = spout; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AE5AA9252CDF3600ABD86D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E9AE5AB0252CE10300ABD86D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E9AE5AB1252CED5100ABD86D /* CommandLineExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLineExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				E9AE5AA9252CDF3600ABD86D /* main.swift */,
+				E9AE5AB1252CED5100ABD86D /* CommandLineExtensions.swift */,
 			);
 			path = Spout;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9AE5AAA252CDF3600ABD86D /* main.swift in Sources */,
+				E9AE5AB2252CED5100ABD86D /* CommandLineExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
